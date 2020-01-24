@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import CardContainer from './components/CardContainer';
 import './App.css';
-import Card from './components/Card';
+import CharCard from './components/Card';
 
 const App = () => {
   const [data, setData] = useState([]);
