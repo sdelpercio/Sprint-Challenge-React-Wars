@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a library available to javascript users to help them create fast, responsive, component-based interactive UIs. It tries to solve the problem of having too many components on a page trying to refresh and manipulate the dom all at once. With React, a component with a slice of state will only re-render that individual component if that state is updated. It also tries to minimize the amount of need-to-know syntax through the use of JSX. With JSX, a component can be written out like html, but also with javascript to make it interactive all in the same place.
+
 - [ ] What does it mean to _think_ in react?
+
+To think in react means to separate out your webpage by components. What components are interactive and need to trigger a re-render? And what happens after that re-render? This is thinking in react.
 
 - [ ] Describe state.
 
+State hooks are a way of creating or using a piece of data that can change based on interactions with components.
+
 - [ ] Describe props.
 
+Props, short for properties, are used to access data from objects passed down from parent components.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side-effects are callback functions that occur after something renders on a webpage for the first time. They can also have clean-up functions that occur when a functional component is stopped. To sync effects to state or prop changes you need to use the second argument as an array and pass in the state or prop you want to target.
 
 ## Project Set Up
 
